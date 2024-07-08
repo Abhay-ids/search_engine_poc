@@ -1,0 +1,14 @@
+<!-- search_form.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Trademarks</title>
+</head>
+<body>
+    <form action="{% url 'search_trademarks' %}" method="GET">
+        <input type="text" name="keyword" placeholder="Enter keyword">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
